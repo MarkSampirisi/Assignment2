@@ -105,6 +105,7 @@
     <Content Include="admin\checkin.aspx" />
     <Content Include="admin\checkout.aspx" />
     <Content Include="admin\room.aspx" />
+    <Content Include="App_Data\ErrorLog.txt" />
     <Content Include="bin\Assignment2.dll" />
     <Content Include="bin\Assignment2.pdb" />
     <Content Include="bin\EntityFramework.dll" />
@@ -213,6 +214,7 @@
     <Compile Include="admin\rooms.aspx.designer.cs">
       <DependentUpon>rooms.aspx</DependentUpon>
     </Compile>
+    <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="default.aspx.cs">
       <DependentUpon>default.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -291,7 +293,7 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="App_Data\" />
+    <Folder Include="obj\Debug\" />
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
